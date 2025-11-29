@@ -4,9 +4,10 @@ return {
     dependencies = { "folke/snacks.nvim" },
     opts = {
       terminal = {
-        split_width_percentage = 0.3,  -- 画面の60%の幅
+        split_width_percentage = 0.35,
         split_side = "right",
-        provider = "auto",
+        -- snacks or autoにすると, edgyのレイアウト設定で上書きされてwidthが制御できないので, nativeにする.
+        provider = "native",
       },
     },
     keys = {
