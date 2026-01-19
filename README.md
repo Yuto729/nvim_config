@@ -62,6 +62,44 @@
 | `<leader>aa` | 差分を承認 |
 | `<leader>ad` | 差分を拒否 |
 
+## Git操作
+
+### Neogit
+
+| キー | 機能 |
+|------|------|
+| `<leader>gg` | Neogit Status（総合Git画面） |
+| `<leader>gc` | Git Commit |
+| `<leader>gp` | Git Push |
+| `<leader>gP` | Git Pull |
+
+### Hunk操作（Gitsigns）
+
+| キー | 機能 |
+|------|------|
+| `]h` | 次のHunk（変更箇所）へ移動 |
+| `[h` | 前のHunkへ移動 |
+| `<leader>hp` | Hunkをインラインでプレビュー |
+| `<leader>hs` | Hunkをステージ |
+| `<leader>hr` | Hunkをリセット（元に戻す） |
+| `<leader>hS` | バッファ全体をステージ |
+| `<leader>hR` | バッファ全体をリセット |
+| `<leader>hu` | ステージを取り消し |
+| `<leader>hd` | Diff表示 |
+| `<leader>hb` | Blame（行の変更者） |
+| `<leader>hB` | Blameを常時表示切替 |
+
+### Diffview
+
+| キー | 機能 |
+|------|------|
+| `<leader>ho` | 現在の変更（unstaged）を表示 |
+| `<leader>hh` | 1つ前のコミットとのdiff |
+| `<leader>hm` | mainブランチとの差分 |
+| `<leader>hf` | 現在のファイルの履歴 |
+| `<leader>hF` | 全ファイルの履歴 |
+| `<leader>hc` | Diffviewを閉じる |
+
 ## LSP（定義ジャンプなど）
 
 | キー | 機能 |
