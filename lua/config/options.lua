@@ -4,3 +4,6 @@
 
 -- スペルチェックを無効化
 vim.opt.spell = false
+
+-- ターミナルカラーを使用
+vim.opt.termguicolors = false
