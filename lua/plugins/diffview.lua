@@ -13,4 +13,3 @@ return {
     { "<leader>hc", "<cmd>DiffviewClose<CR>", desc = "Diffview: 閉じる" },
   },
 }
-
