@@ -64,11 +64,35 @@
 
 ## Git操作
 
+### LazyGit
+
+#### 起動
+
+| キー | 機能 |
+|------|------|
+| `<leader>gg` | LazyGitを開く |
+| `<leader>gf` | 現在のファイルのLazyGit |
+
+#### LazyGit内の操作
+
+| キー | 機能 |
+|------|------|
+| `1`-`5` | パネル切り替え（Status/Files/Branches/Commits/Stash） |
+| `h`/`l` | 左右のパネルに移動 |
+| `Tab` | 次のパネル |
+| `j`/`k` | 上下移動 |
+| `Enter` | 詳細表示/選択 |
+| `Space` | ステージ/アンステージ |
+| `c` | コミット |
+| `p` | プッシュ |
+| `P` | プル |
+| `?` | ヘルプ表示 |
+| `q` | 終了 |
+
 ### Neogit
 
 | キー | 機能 |
 |------|------|
-| `<leader>gg` | Neogit Status（総合Git画面） |
 | `<leader>gc` | Git Commit |
 | `<leader>gp` | Git Push |
 | `<leader>gP` | Git Pull |
