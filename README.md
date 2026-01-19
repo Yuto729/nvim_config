@@ -1,4 +1,91 @@
-# 💤 LazyVim
+# Neovim (LazyVim) キーバインド
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+`<leader>` はスペースキーです。
+
+## 検索
+
+| キー | 機能 |
+|------|------|
+| `<leader>/` | Grep検索（プロジェクト全体） |
+| `<leader>sg` | Live Grep（リアルタイム検索） |
+| `<leader>sw` | カーソル下の単語を検索 |
+| `<leader>ff` | ファイル名のあいまい検索 |
+| `<leader><leader>` | ファイル名検索（別名） |
+| `<leader>sb` | バッファ内の行を検索 |
+| `<leader>sB` | 開いているバッファ内をGrep |
+
+## ファイルエクスプローラー
+
+| キー | 機能 |
+|------|------|
+| `-` | Oil.nvimを開く（親ディレクトリ） |
+
+### Oil.nvim内の操作
+
+| キー | 機能 |
+|------|------|
+| `Enter` | ファイルを開く / ディレクトリに入る |
+| `-` | 親ディレクトリへ |
+| `q` | 閉じる |
+
+## バッファ操作
+
+| キー | 機能 |
+|------|------|
+| `<leader>,` | バッファ一覧 |
+| `<leader>bb` | 前のバッファに切り替え |
+| `<leader>bd` | バッファを閉じる |
+| `<leader>bo` | 他のバッファをすべて閉じる |
+| `<leader>bD` | バッファとウィンドウを閉じる |
+| `H` | 前のバッファへ |
+| `L` | 次のバッファへ |
+
+## ターミナル
+
+| キー | 機能 |
+|------|------|
+| `Ctrl+/` | フローティングターミナル |
+| `<leader>ft` | ターミナル（プロジェクトルート） |
+| `<leader>fT` | ターミナル（カレントディレクトリ） |
+
+## Claude Code
+
+| キー | 機能 |
+|------|------|
+| `<leader>ac` | Claude Codeを開く/閉じる |
+| `<leader>af` | Claude Codeにフォーカス |
+| `<leader>an` | 新しい会話を開始 |
+| `<leader>ar` | 会話を再開 |
+| `<leader>aC` | 会話を続ける |
+| `<leader>ab` | 現在のバッファを追加 |
+| `<leader>as` | 選択範囲をClaudeに送信（ビジュアルモード） |
+| `<leader>aa` | 差分を承認 |
+| `<leader>ad` | 差分を拒否 |
+
+## LSP（定義ジャンプなど）
+
+| キー | 機能 |
+|------|------|
+| `gd` | 定義へジャンプ |
+| `gr` | 参照一覧 |
+| `gI` | 実装へジャンプ |
+| `gy` | 型定義へジャンプ |
+| `K` | ホバードキュメント |
+| `Ctrl+o` | 前の位置に戻る |
+| `Ctrl+i` | 次の位置に進む |
+
+## ウィンドウ操作
+
+| キー | 機能 |
+|------|------|
+| `Ctrl+h/j/k/l` | ウィンドウ間移動 |
+| `Ctrl+矢印` | ウィンドウサイズ変更 |
+| `<leader>w` | ウィンドウメニュー |
+
+## その他
+
+| キー | 機能 |
+|------|------|
+| `<leader>` | which-key（コマンド一覧表示） |
+| `<leader>sk` | キーマップ検索 |
+| `<leader>sh` | ヘルプ検索 |
