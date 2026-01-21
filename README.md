@@ -97,22 +97,6 @@
 | `<leader>gp` | Git Push |
 | `<leader>gP` | Git Pull |
 
-### Hunk操作（Gitsigns）
-
-| キー | 機能 |
-|------|------|
-| `]h` | 次のHunk（変更箇所）へ移動 |
-| `[h` | 前のHunkへ移動 |
-| `<leader>hp` | Hunkをインラインでプレビュー |
-| `<leader>hs` | Hunkをステージ |
-| `<leader>hr` | Hunkをリセット（元に戻す） |
-| `<leader>hS` | バッファ全体をステージ |
-| `<leader>hR` | バッファ全体をリセット |
-| `<leader>hu` | ステージを取り消し |
-| `<leader>hd` | Diff表示 |
-| `<leader>hb` | Blame（行の変更者） |
-| `<leader>hB` | Blameを常時表示切替 |
-
 ### Diffview
 
 #### 起動
@@ -183,6 +167,14 @@
 | `Ctrl+h/j/k/l` | ウィンドウ間移動 |
 | `Ctrl+矢印` | ウィンドウサイズ変更 |
 | `<leader>w` | ウィンドウメニュー |
+
+## セッション
+
+| キー | 機能 |
+|------|------|
+| `<leader>qs` | セッションを復元（現在のディレクトリ） |
+| `<leader>ql` | 最後のセッションを復元 |
+| `<leader>qd` | セッションの自動保存を停止 |
 
 ## その他
 
