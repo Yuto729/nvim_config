@@ -106,6 +106,7 @@
 | `<leader>ho` | 現在の変更（unstaged）を表示 |
 | `<leader>hh` | 1つ前のコミットとのdiff |
 | `<leader>hm` | mainブランチとの差分 |
+| `<leader>hd` | developブランチとの差分 |
 | `<leader>hf` | 現在のファイルの履歴 |
 | `<leader>hF` | 全ファイルの履歴 |
 | `<leader>hc` | Diffviewを閉じる |
