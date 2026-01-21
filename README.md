@@ -64,52 +64,29 @@
 
 ## Git操作
 
-### LazyGit
+### Hunk操作（Gitsigns）
+
+| キー | 機能 |
+|------|------|
+| `]h` / `[h` | 次/前のhunkに移動 |
+| `<leader>hr` | hunkをrevert |
+| `<leader>hs` | hunkをstage |
+| `<leader>hu` | stageを取り消し |
+| `<leader>hp` | hunkをプレビュー |
+
+### Diffview（差分表示）
 
 #### 起動
 
 | キー | 機能 |
 |------|------|
-| `<leader>lg` | LazyGitを開く |
-| `<leader>lf` | 現在のファイルのLazyGit |
-
-#### LazyGit内の操作
-
-| キー | 機能 |
-|------|------|
-| `1`-`5` | パネル切り替え（Status/Files/Branches/Commits/Stash） |
-| `h`/`l` | 左右のパネルに移動 |
-| `Tab` | 次のパネル |
-| `j`/`k` | 上下移動 |
-| `Enter` | 詳細表示/選択 |
-| `Space` | ステージ/アンステージ |
-| `c` | コミット |
-| `p` | プッシュ |
-| `P` | プル |
-| `?` | ヘルプ表示 |
-| `q` | 終了 |
-
-### Neogit
-
-| キー | 機能 |
-|------|------|
-| `<leader>gc` | Git Commit |
-| `<leader>gp` | Git Push |
-| `<leader>gP` | Git Pull |
-
-### Diffview
-
-#### 起動
-
-| キー | 機能 |
-|------|------|
-| `<leader>ho` | 現在の変更（unstaged）を表示 |
-| `<leader>hh` | 1つ前のコミットとのdiff |
-| `<leader>hm` | mainブランチとの差分 |
-| `<leader>hd` | developブランチとの差分 |
-| `<leader>hf` | 現在のファイルの履歴 |
-| `<leader>hF` | 全ファイルの履歴 |
-| `<leader>hc` | Diffviewを閉じる |
+| `<leader>do` | 現在の変更（unstaged）を表示 |
+| `<leader>dh` | 1つ前のコミットとのdiff |
+| `<leader>dm` | mainブランチとの差分 |
+| `<leader>dd` | developブランチとの差分 |
+| `<leader>df` | 現在のファイルの履歴 |
+| `<leader>dF` | 全ファイルの履歴 |
+| `<leader>dc` | Diffviewを閉じる |
 
 #### Diffview内の操作
 
