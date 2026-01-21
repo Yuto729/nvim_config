@@ -10,6 +10,7 @@ return {
         typescriptreact = {},
         javascript = {},
         javascriptreact = {},
+        lua = {},
       },
     },
   },
@@ -24,6 +25,12 @@ return {
           end,
         },
         vtsls = {
+          on_attach = function(client, _)
+            client.server_capabilities.documentFormattingProvider = false
+            client.server_capabilities.documentRangeFormattingProvider = false
+          end,
+        },
+        lua_ls = {
           on_attach = function(client, _)
             client.server_capabilities.documentFormattingProvider = false
             client.server_capabilities.documentRangeFormattingProvider = false
