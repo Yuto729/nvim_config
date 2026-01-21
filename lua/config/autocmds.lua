@@ -7,5 +7,5 @@
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 
 -- Markdownでのスペルチェックを無効化（日本語対応）
+-- 参考: https://clameyes.com/posts/lazyvim-underline-red-wave-remove-japanese
 vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
-
