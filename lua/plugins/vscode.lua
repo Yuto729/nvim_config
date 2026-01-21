@@ -18,6 +18,7 @@ return {
       },
       group_overrides = {
         Cursor = { fg = c.vscDarkBlue, bg = c.vscLightGreen, bold = true },
+        Comment = { fg = "#6A9955", bold = true, italic = true },
       },
     })
 
