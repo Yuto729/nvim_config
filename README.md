@@ -70,8 +70,8 @@
 
 | キー | 機能 |
 |------|------|
-| `<leader>gg` | LazyGitを開く |
-| `<leader>gf` | 現在のファイルのLazyGit |
+| `<leader>lg` | LazyGitを開く |
+| `<leader>lf` | 現在のファイルのLazyGit |
 
 #### LazyGit内の操作
 
