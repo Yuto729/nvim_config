@@ -1,7 +1,8 @@
 return {
   {
     "pocco81/auto-save.nvim",
-    event = { "InsertLeave", "TextChanged" },
+    enabled = true,
+    event = { "InsertLeave", "BufLeave" },
     config = function()
       require("auto-save").setup({
         enabled = true,
@@ -14,11 +15,10 @@ return {
           cleaning_interval = 1250,
         },
         trigger_events = {
-          immediate_save = { "BufLeave", "FocusLost" },
-          defer_save = { "InsertLeave", "TextChanged" },
-          cancel_defered_save = { "InsertEnter" },
+          immediate_save = { "BufLeave", "FocusLost", "InsertLeave" },
+          defer_save = {},
+          cancel_defered_save = {},
         },
-        debounce_delay = 1000,
         conditions = {
           exists = true,
           filename_is_not = {},
